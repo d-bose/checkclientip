@@ -1,7 +1,7 @@
 var express = require('express');
 var requestIp = require('request-ip');
 var app = express();
-var port = process.env.port || 3000
+var port = process.env.port || 80
        
 app.get('/getClientIp',function(request, res) {
    
