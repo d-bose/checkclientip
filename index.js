@@ -2,7 +2,7 @@ var express = require('express');
 var requestIp = require('request-ip');
 var app = express();
        
-app.get('/',function(request, res) {
+app.get('/getClientIp',function(request, res) {
    
     var idAddress = request.header('x-forwarded-for') || request.connection.remoteAddress;
     var clientIp = requestIp.getClientIp(request);
