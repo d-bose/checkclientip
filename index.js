@@ -1,6 +1,7 @@
 var express = require('express');
 var requestIp = require('request-ip');
 var app = express();
+var port = process.env.port || 3000
        
 app.get('/getClientIp',function(request, res) {
    
@@ -10,4 +11,4 @@ app.get('/getClientIp',function(request, res) {
     res.end();
 });
    
-app.listen(80, () => console.log(`App listening on port 80`))
+app.listen(port, () => console.log("App listening on port " + port))
