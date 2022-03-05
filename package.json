@@ -1,0 +1,23 @@
+{
+  "name": "checkclientip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-bose/checkclientip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-bose/checkclientip/issues"
+  },
+  "homepage": "https://github.com/d-bose/checkclientip#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "request-ip": "^2.1.3"
+  }
+}
